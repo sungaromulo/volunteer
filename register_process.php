@@ -43,7 +43,7 @@ VALUES (
 if ($conn->query($sql) === TRUE) {
     echo "<script>
         alert('Volunteer successfully registered!');
-        window.location.href = 'index.php';
+        window.location.href = 'index.html';
         </script>";
 } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
