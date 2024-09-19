@@ -1,5 +1,5 @@
 <?php
-include 'header/header.php';
+include 'header.php';
 ?>
 <?php
 session_start();
@@ -263,5 +263,5 @@ $result = $conn->query($sql);
     }
 </script>
 <?php
-include 'footer/footer.php';
+include 'footer.php';
 ?>
