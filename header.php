@@ -97,12 +97,16 @@ body {
         font-size: 0.9rem;
     }
 }
-
+img{
+    width: 80px;
+}
         </style>
 </head>
 <body>
     <header class="header">
-        <div class="logo">MyLogo</div>
+       <div class="logo">
+            <img src="MDRRM.png">
+        </div>
         <nav class="nav">
             <ul class="nav-list">
                 <li><a href="index.php">Logout</a></li>
