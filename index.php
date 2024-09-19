@@ -276,5 +276,5 @@ body {
 </body>
 </html>
 <?php
-include 'footer/footer.php';
+include 'footer.php';
 ?>
